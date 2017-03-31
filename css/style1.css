@@ -112,6 +112,7 @@
 /* Content */
 
 .slide__element {
+	font-size: large;
 	opacity: 0;
 	color: #252445;
 	-webkit-transform: translate3d(0, 50px, 0);
@@ -151,25 +152,4 @@
     border-radius: 15px;
 }
 
-@media screen and (max-height: 69em) {
-	.logo{
-		margin-top: 2vh !important;
-		height: 10vh !important;
-	}
-	.slideshow {
-		font-size: 75%;
-	}
-	.slide {
-		padding-top: 25vh;
-	}
-	.slideshow__nav {
-		bottom: 1em;
-	}
-	.codrops-header h1 {
-		margin: 0;
 
-	}
-	.codrops-header {
-		text-align: center;
-	}
-}
