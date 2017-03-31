@@ -151,10 +151,10 @@
     border-radius: 15px;
 }
 
-@media screen and (max-height: 39em) {
+@media screen and (max-height: 69em) {
 	.logo{
-		margin-top: 2vh;
-		height: 10vh;
+		margin-top: 2vh !important;
+		height: 10vh !important;
 	}
 	.slideshow {
 		font-size: 75%;
@@ -163,9 +163,13 @@
 		padding-top: 25vh;
 	}
 	.slideshow__nav {
-		bottom: 6em;
+		bottom: 1em;
 	}
 	.codrops-header h1 {
 		margin: 0;
+
+	}
+	.codrops-header {
+		text-align: center;
 	}
 }
